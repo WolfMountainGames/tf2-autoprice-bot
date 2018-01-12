@@ -13,6 +13,9 @@ Automatically buys and sells tf2 items while listing on backpack.tf. The bot has
 * [config.json](#config)
 * [listings.json](#listings)
 * [setup.js](#setup.js)
+* [tradecount.json](#tradecount)
+* [start.sh](#start)
+* [steam commands](#commands)
 
 # Setup and configuration
 Begin by downloading the repository. You can do this by downloading as a zip. Make sure to keep everything in a single folder.
@@ -58,3 +61,37 @@ run this BEFORE you run the bot with
 >node setup.js
 
 This populates the inventory in listings.json, and sets all buy/sell IDs to null
+
+## <a name="tradecount"></a>tradecount.json
+The only thing you need to worry about in this file is keyvalue_bot, which is the keyprice in ref that you want to use.
+
+## <a name="start"></a>start.sh
+This bot is designed to be used as a daemon with pm2. To install pm2, use
+>npm install pm2 -g
+>
+You can then run ./start.sh, which starts pm2 with a few settings I found to work well.
+
+
+## <a name="commands"></a>steam commands
+Only works for the admin. Send to the bot in steam chat
+
+- `!trades` - tells you the #of trades accepted, received % acceptance rate (should be near 76% if everything is working), and profit in keys since you last checked.
+- `!tradesToday` - same as !trades but does not reset values when you check
+ - `!resetTrades` - resets constant values on !tradesToday (for tracking percentages over longer times)
+- `!keyprice #` - i.e.,  !keyprice 37.66 to set the keyvalue in ref to 37.66. Will be saved to tradecount.json
+
+
+
+
+
+
+## TL:DR: version
+
+
+- npm install
+- npm install pm2 -g
+- fix your config.json file. 
+- fix your listings.json file to have the listings you want
+- fix tradecount to have the right key value
+- node setup.js
+- ./start.sh
