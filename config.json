@@ -1,0 +1,13 @@
+{
+    "steamid": "765611xxxxxxxxxx",
+    "admin": "765611xxxxxxxxxx",
+    "hash": "your backpack.tf cookie hash",
+    "token": "backpack.tf token",
+    "key": "backpack.tf API key",
+    "identity_secret": "identity_secret",
+    "shared_secret": "shared_secret",
+    "username": "steam username",
+    "password": "steam password",
+    "name": "bot name"
+}
+

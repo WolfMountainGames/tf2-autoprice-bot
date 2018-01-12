@@ -1,0 +1,21 @@
+{
+  "name": "tf2-autoprice-bot",
+  "version": "2.0.1",
+  "description": "Automatically buys and sells tf2 items while listing on backpack.tf",
+  "main": "daemon_shop.js",
+  "author": "Axle Change",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.6.0",
+    "style-console": "^1.0.1",
+    "cheerio": "^1.0.0-rc.2",
+    "cloudscraper": "^1.4.1",
+    "node-rsa": "^0.4.2",
+    "request": "^2.83.0",
+    "socket.io-client": "^2.0.4",
+    "steam-totp": "^2.0.1",
+    "steam-tradeoffer-manager": "^2.9.3",
+    "steam-user": "^3.24.0",
+    "steamcommunity": "^3.34.0"
+  }
+}
