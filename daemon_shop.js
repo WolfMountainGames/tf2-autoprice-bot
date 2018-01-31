@@ -4,7 +4,6 @@ var SteamCommunity = require('steamcommunity');
 var SteamTotp = require('steam-totp');
 var TradeOfferManager = require('steam-tradeoffer-manager');
 var fs = require('fs');
-var console = require('style-console');
 var async = require('async');
 var backpack = require('./backpack.js');
 
