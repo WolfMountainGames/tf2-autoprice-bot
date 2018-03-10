@@ -1,3 +1,4 @@
+# THIS BOT IS NOT SAFE, I HAVE FORKED IT ONLY FOR INVESTIGATIVE PURPOSES
 # tf2-autoprice-bot
 Automatically buys and sells tf2 items while listing on backpack.tf. The bot has the following features:
 
