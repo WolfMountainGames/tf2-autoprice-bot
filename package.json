@@ -7,7 +7,6 @@
   "license": "MIT",
   "dependencies": {
     "async": "^2.6.0",
-    "style-console": "^1.0.1",
     "cheerio": "^1.0.0-rc.2",
     "cloudscraper": "^1.4.1",
     "node-rsa": "^0.4.2",
