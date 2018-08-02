@@ -661,7 +661,7 @@ function handleAccepted(offer, oldState) {
 
 
 client.on("friendMessage", function(steamID, message) {
-    if (steamID.getSteamID64() == admin) {
+    if (steamID.getSteamID64() == config.admin) {
 
         /*
         if (message == "!trades") {
